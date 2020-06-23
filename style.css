@@ -1,0 +1,14 @@
+ h2{
+            color: black    ;
+            background-color: burlywood;
+            font-family: monospace;
+        }
+p{
+    color: aqua;
+    font-family: cursive;
+}
+
+ul{
+    color: saddlebrown;
+    font-family: sans-serif;
+}
