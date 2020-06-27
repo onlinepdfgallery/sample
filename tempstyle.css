@@ -3,7 +3,8 @@
   padding: 0px;
   text-transform: capitalize;
   text-decoration: none;
- 
+     overflow-x: hidden;
+
 }
 
 body {
@@ -26,7 +27,7 @@ header {
   /* align-items: space between; */
 }
 .template {
-  width: auto;
+  width: 100vw;
   height:auto;
   /* margin: 20px; */
   box-shadow:3px 7px 8px black  ;
