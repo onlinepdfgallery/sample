@@ -24,7 +24,7 @@ header {
   /* align-items: space between; */
 }
 .template {
-  width: 100%;
+  width: auto;
   height:auto;
   /* margin: 20px; */
   box-shadow:3px 7px 8px black  ;
