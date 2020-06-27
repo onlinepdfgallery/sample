@@ -69,7 +69,7 @@ nav a:first-child {
 }
 /* ..........Menu Bar......... */
 .menu {
-  width: 20%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
