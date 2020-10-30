@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;  
+font-family: 'Overpass', sans-serif;
+color:white
+}
+body{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    padding-bottom: 15vh;
+    background-size: cover;  
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: orange;
+    justify-content: space-around;
+    position: fixed;
+    opacity: 0.85;
+}
+.overwrite{
+    width: 85vw;
+}
+
+#logoimg{
+    height: 8vh;
+}
+
+nav{
+    text-align: center;
+    padding: 1% ; 
+    height: 90vh;
+    width: 10vw;
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+    margin-left: 86vw;  
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+#active{
+    color: orange;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+.dummy{
+    height: 10vh;
+    background-color: black;
+}
+.main{
+    
+    width: 85vw;
+    display: flex;
+    height:37vw ;
+}
+.name{
+    width: 55%;
+    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.name h1{
+    font-size: 9vw;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0); 
+    word-spacing: 10px;
+}
+.name p{
+    font-size: 2vw;
+    position: relative;
+    margin-top: -15%;
+    color: black;
+}
+.main img{
+    width: 45%;
+  
+}
+.about{
+    width: 81vw;
+    text-align: center;
+    margin-top:3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    font-size: 1.6vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    line-height: 130%;
+    color: white;
+    /* text-shadow: 1px 1px rgb(0, 0, 0); */
+}
+.lineclass{
+    border-bottom: 1px solid white;
+}
+.product{
+    text-align: center;
+    /* background-color: white; */
+    padding:3%;
+}
+.product h1{
+    color: orange;
+}
+
+/*Below slider*/
+.proddesc{
+    margin-top: 0%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+}
+
+.prodbox {
+    width: 400px;
+    margin: 1%;
+    height: 30vh;
+    text-align: center;
+    line-height: 2;
+}
+
+.prodbox h1{
+    font-size: 400%;
+    color: orange;
+}
+#pro2,#replace{
+    display: none;
+}
+button{
+    background-color: black;
+    color: orange;
+    width: 30vw;
+    height: 15vh;
+    border: none;
+    font-size: xx-large;
+}
+button:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.aboutus{
+    margin-left: 4vw;
+}
+.aboutus h1,#footera h1,#dev h1
+  {
+        color: orange;
+  }  
+
+.aboutus p{
+    margin-top: 1.5vh;
+    margin-right: 15vh;
+    text-align: left;
+font-size: larger;
+margin-bottom: 5vh;
+}
+
+
+video{
+    width: 85vw;
+    display: block;
+    /* border: 3px solid orange;     */
+}
+
+#gallery img{
+    width: 85vw;
+}
+#gallery p{
+    width: 85vw;
+    font-size: xx-large;
+    justify-content: space-around;
+    text-align: center;
+    color: orange;
+    margin-top: 1%;
+}
+#gallery1 img{
+    width: 85vw;
+    height: 40vh;
+}
+
+#gallery2{
+    width: 50vw;
+    height: 40vh;
+    margin-left: 18%;
+}
